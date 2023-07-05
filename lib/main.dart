@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:hhangman/screens/game.dart';
 import 'screens/entry.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +16,33 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: Entry(),
+      debugShowCheckedModeBanner: false,
+    //   home: Scaffold(
+    //     appBar: PreferredSize(
+    //       preferredSize: Size.fromHeight(66),
+    //   child: Padding(
+    //     padding: const EdgeInsets.fromLTRB(0, 10, 7, 0),
+    //     child: AppBar(
+    //
+    //       title: Text(
+    //         'Hangman',
+    //
+    //       ),
+    //       elevation: 0,
+    //       backgroundColor: Colors.transparent, // appbar color.
+    //       actions: [
+    //         TextButton(onPressed: (){}, child: Text(
+    //           'in many language',
+    //
+    //         ),),
+    //
+    //       ],
+    //     ),
+    //
+    //   ),
+    // ),
+          home: Entry()
+
     );
   }
 }
