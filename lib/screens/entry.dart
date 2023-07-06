@@ -160,46 +160,6 @@ class _EntryState extends State<Entry> {
                                             }
                                           }),
                                     ),
-                                    //       child: TextField(
-                                    //           style: const TextStyle(
-                                    //             fontSize: 20,
-                                    //           ),
-                                    //           // controller: myController,
-                                    //           decoration: const InputDecoration(
-                                    //             border: OutlineInputBorder(),
-                                    //             labelText: 'Enter Your Name',
-                                    //           ),
-                                    //
-                                    //
-                                    //
-                                    //         // validator: (value) {
-                                    //         //   if (value.isEmpty) {
-                                    //         //     return 'This field is required';
-                                    //         //   }
-                                    //         //   return null;
-                                    //         // },
-                                    //       ),
-                                    //     ),
-                                    //   ),
-                                    // ),
-                                    // SizedBox(
-                                    //   height: 20,
-                                    // ),
-
-                                    // ElevatedButton(
-                                    //   style: ElevatedButton.styleFrom(
-                                    //       padding: const EdgeInsets.all(20.0),
-                                    //       textStyle: const TextStyle(
-                                    //         fontSize: 20,
-                                    //       )),
-                                    //   child: const Text("Start the game"),
-                                    //   onPressed: () {
-                                    //     Navigator.of(context)
-                                    //         .push(MaterialPageRoute(builder: (context) {
-                                    //       return GameScreen(language: language);
-                                    //     }));
-                                    //   },
-                                    // ),
                                   ],
                                 ),
                               ),
