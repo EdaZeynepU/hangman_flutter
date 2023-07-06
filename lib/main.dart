@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:hhangman/screens/game.dart';
 import 'screens/entry.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 void main() {
-  runApp(const MyApp());
+
+  runApp(const ProviderScope(child: MyApp(),),);
 }
 
 class MyApp extends StatelessWidget {
@@ -17,30 +19,6 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-    //   home: Scaffold(
-    //     appBar: PreferredSize(
-    //       preferredSize: Size.fromHeight(66),
-    //   child: Padding(
-    //     padding: const EdgeInsets.fromLTRB(0, 10, 7, 0),
-    //     child: AppBar(
-    //
-    //       title: Text(
-    //         'Hangman',
-    //
-    //       ),
-    //       elevation: 0,
-    //       backgroundColor: Colors.transparent, // appbar color.
-    //       actions: [
-    //         TextButton(onPressed: (){}, child: Text(
-    //           'in many language',
-    //
-    //         ),),
-    //
-    //       ],
-    //     ),
-    //
-    //   ),
-    // ),
           home: Entry()
 
     );
